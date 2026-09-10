@@ -1,0 +1,32 @@
+[
+  {
+    "department": "Emergency",
+    "visits": 2043,
+    "avg_wait_minutes": 121.81,
+    "avg_stay_minutes": 382.41
+  },
+  {
+    "department": "Imaging",
+    "visits": 2042,
+    "avg_wait_minutes": 39.89,
+    "avg_stay_minutes": 92.75
+  },
+  {
+    "department": "Orthopedics",
+    "visits": 2010,
+    "avg_wait_minutes": 63.61,
+    "avg_stay_minutes": 168.07
+  },
+  {
+    "department": "General Medicine",
+    "visits": 1911,
+    "avg_wait_minutes": 80.67,
+    "avg_stay_minutes": 215.17
+  },
+  {
+    "department": "Cardiology",
+    "visits": 1894,
+    "avg_wait_minutes": 47.25,
+    "avg_stay_minutes": 158.46
+  }
+]

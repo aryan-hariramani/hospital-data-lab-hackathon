@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "requested_rows": 10000,
+  "accepted_rows": 9900,
+  "quarantined_rows": 100,
+  "generation_seconds": 0.05282,
+  "validation_seconds": 0.159574,
+  "database_and_analytics_seconds": 0.199455,
+  "known_injected_rows": 100,
+  "injected_rows_detected": 100,
+  "other_rows_flagged": 0
+}

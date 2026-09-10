@@ -1,0 +1,962 @@
+{
+  "total_rows": 10000,
+  "valid_rows": 9900,
+  "invalid_rows": 100,
+  "issue_count": 120,
+  "rule_counts": {
+    "age": 10,
+    "chronology": 10,
+    "department": 20,
+    "duplicate": 10,
+    "duration": 20,
+    "identifier": 10,
+    "schema": 10,
+    "stay": 10,
+    "timestamp": 10,
+    "wait": 10
+  },
+  "invalid_indices": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+  ],
+  "issues": [
+    {
+      "row_index": 100,
+      "csv_line": 102,
+      "visit_id": "SYN-0000101",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 100,
+      "csv_line": 102,
+      "visit_id": "SYN-0000101",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 101,
+      "csv_line": 103,
+      "visit_id": "SYN-0000102",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 101,
+      "csv_line": 103,
+      "visit_id": "SYN-0000102",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 102,
+      "csv_line": 104,
+      "visit_id": "SYN-0000103",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 102,
+      "csv_line": 104,
+      "visit_id": "SYN-0000103",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 103,
+      "csv_line": 105,
+      "visit_id": "SYN-0000104",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 103,
+      "csv_line": 105,
+      "visit_id": "SYN-0000104",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 104,
+      "csv_line": 106,
+      "visit_id": "SYN-0000105",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 104,
+      "csv_line": 106,
+      "visit_id": "SYN-0000105",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 105,
+      "csv_line": 107,
+      "visit_id": "SYN-0000106",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 105,
+      "csv_line": 107,
+      "visit_id": "SYN-0000106",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 106,
+      "csv_line": 108,
+      "visit_id": "SYN-0000107",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 106,
+      "csv_line": 108,
+      "visit_id": "SYN-0000107",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 107,
+      "csv_line": 109,
+      "visit_id": "SYN-0000108",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 107,
+      "csv_line": 109,
+      "visit_id": "SYN-0000108",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 108,
+      "csv_line": 110,
+      "visit_id": "SYN-0000109",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 108,
+      "csv_line": 110,
+      "visit_id": "SYN-0000109",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 109,
+      "csv_line": 111,
+      "visit_id": "SYN-0000110",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 109,
+      "csv_line": 111,
+      "visit_id": "SYN-0000110",
+      "rule": "schema",
+      "message": "Exact required columns and no missing values"
+    },
+    {
+      "row_index": 110,
+      "csv_line": 112,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 111,
+      "csv_line": 113,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 112,
+      "csv_line": 114,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 113,
+      "csv_line": 115,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 114,
+      "csv_line": 116,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 115,
+      "csv_line": 117,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 116,
+      "csv_line": 118,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 117,
+      "csv_line": 119,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 118,
+      "csv_line": 120,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 119,
+      "csv_line": 121,
+      "visit_id": "bad-id",
+      "rule": "identifier",
+      "message": "Visit ID matches SYN- followed by seven digits"
+    },
+    {
+      "row_index": 120,
+      "csv_line": 122,
+      "visit_id": "SYN-0000001",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 121,
+      "csv_line": 123,
+      "visit_id": "SYN-0000002",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 122,
+      "csv_line": 124,
+      "visit_id": "SYN-0000003",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 123,
+      "csv_line": 125,
+      "visit_id": "SYN-0000004",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 124,
+      "csv_line": 126,
+      "visit_id": "SYN-0000005",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 125,
+      "csv_line": 127,
+      "visit_id": "SYN-0000006",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 126,
+      "csv_line": 128,
+      "visit_id": "SYN-0000007",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 127,
+      "csv_line": 129,
+      "visit_id": "SYN-0000008",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 128,
+      "csv_line": 130,
+      "visit_id": "SYN-0000009",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 129,
+      "csv_line": 131,
+      "visit_id": "SYN-0000010",
+      "rule": "duplicate",
+      "message": "Visit ID has not appeared in a previous row"
+    },
+    {
+      "row_index": 130,
+      "csv_line": 132,
+      "visit_id": "SYN-0000131",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 131,
+      "csv_line": 133,
+      "visit_id": "SYN-0000132",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 132,
+      "csv_line": 134,
+      "visit_id": "SYN-0000133",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 133,
+      "csv_line": 135,
+      "visit_id": "SYN-0000134",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 134,
+      "csv_line": 136,
+      "visit_id": "SYN-0000135",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 135,
+      "csv_line": 137,
+      "visit_id": "SYN-0000136",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 136,
+      "csv_line": 138,
+      "visit_id": "SYN-0000137",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 137,
+      "csv_line": 139,
+      "visit_id": "SYN-0000138",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 138,
+      "csv_line": 140,
+      "visit_id": "SYN-0000139",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 139,
+      "csv_line": 141,
+      "visit_id": "SYN-0000140",
+      "rule": "department",
+      "message": "Department is one of five supported categories"
+    },
+    {
+      "row_index": 140,
+      "csv_line": 142,
+      "visit_id": "SYN-0000141",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 141,
+      "csv_line": 143,
+      "visit_id": "SYN-0000142",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 142,
+      "csv_line": 144,
+      "visit_id": "SYN-0000143",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 143,
+      "csv_line": 145,
+      "visit_id": "SYN-0000144",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 144,
+      "csv_line": 146,
+      "visit_id": "SYN-0000145",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 145,
+      "csv_line": 147,
+      "visit_id": "SYN-0000146",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 146,
+      "csv_line": 148,
+      "visit_id": "SYN-0000147",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 147,
+      "csv_line": 149,
+      "visit_id": "SYN-0000148",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 148,
+      "csv_line": 150,
+      "visit_id": "SYN-0000149",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 149,
+      "csv_line": 151,
+      "visit_id": "SYN-0000150",
+      "rule": "age",
+      "message": "Age is a whole number from 0 to 120"
+    },
+    {
+      "row_index": 150,
+      "csv_line": 152,
+      "visit_id": "SYN-0000151",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 151,
+      "csv_line": 153,
+      "visit_id": "SYN-0000152",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 152,
+      "csv_line": 154,
+      "visit_id": "SYN-0000153",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 153,
+      "csv_line": 155,
+      "visit_id": "SYN-0000154",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 154,
+      "csv_line": 156,
+      "visit_id": "SYN-0000155",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 155,
+      "csv_line": 157,
+      "visit_id": "SYN-0000156",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 156,
+      "csv_line": 158,
+      "visit_id": "SYN-0000157",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 157,
+      "csv_line": 159,
+      "visit_id": "SYN-0000158",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 158,
+      "csv_line": 160,
+      "visit_id": "SYN-0000159",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 159,
+      "csv_line": 161,
+      "visit_id": "SYN-0000160",
+      "rule": "timestamp",
+      "message": "Timestamps use valid YYYY-MM-DDTHH:MM format"
+    },
+    {
+      "row_index": 160,
+      "csv_line": 162,
+      "visit_id": "SYN-0000161",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 160,
+      "csv_line": 162,
+      "visit_id": "SYN-0000161",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 161,
+      "csv_line": 163,
+      "visit_id": "SYN-0000162",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 161,
+      "csv_line": 163,
+      "visit_id": "SYN-0000162",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 162,
+      "csv_line": 164,
+      "visit_id": "SYN-0000163",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 162,
+      "csv_line": 164,
+      "visit_id": "SYN-0000163",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 163,
+      "csv_line": 165,
+      "visit_id": "SYN-0000164",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 163,
+      "csv_line": 165,
+      "visit_id": "SYN-0000164",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 164,
+      "csv_line": 166,
+      "visit_id": "SYN-0000165",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 164,
+      "csv_line": 166,
+      "visit_id": "SYN-0000165",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 165,
+      "csv_line": 167,
+      "visit_id": "SYN-0000166",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 165,
+      "csv_line": 167,
+      "visit_id": "SYN-0000166",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 166,
+      "csv_line": 168,
+      "visit_id": "SYN-0000167",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 166,
+      "csv_line": 168,
+      "visit_id": "SYN-0000167",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 167,
+      "csv_line": 169,
+      "visit_id": "SYN-0000168",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 167,
+      "csv_line": 169,
+      "visit_id": "SYN-0000168",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 168,
+      "csv_line": 170,
+      "visit_id": "SYN-0000169",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 168,
+      "csv_line": 170,
+      "visit_id": "SYN-0000169",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 169,
+      "csv_line": 171,
+      "visit_id": "SYN-0000170",
+      "rule": "chronology",
+      "message": "Arrival <= seen <= discharge"
+    },
+    {
+      "row_index": 169,
+      "csv_line": 171,
+      "visit_id": "SYN-0000170",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 170,
+      "csv_line": 172,
+      "visit_id": "SYN-0000171",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 171,
+      "csv_line": 173,
+      "visit_id": "SYN-0000172",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 172,
+      "csv_line": 174,
+      "visit_id": "SYN-0000173",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 173,
+      "csv_line": 175,
+      "visit_id": "SYN-0000174",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 174,
+      "csv_line": 176,
+      "visit_id": "SYN-0000175",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 175,
+      "csv_line": 177,
+      "visit_id": "SYN-0000176",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 176,
+      "csv_line": 178,
+      "visit_id": "SYN-0000177",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 177,
+      "csv_line": 179,
+      "visit_id": "SYN-0000178",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 178,
+      "csv_line": 180,
+      "visit_id": "SYN-0000179",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 179,
+      "csv_line": 181,
+      "visit_id": "SYN-0000180",
+      "rule": "wait",
+      "message": "Wait is a whole number from 0 to 10080 minutes"
+    },
+    {
+      "row_index": 180,
+      "csv_line": 182,
+      "visit_id": "SYN-0000181",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 181,
+      "csv_line": 183,
+      "visit_id": "SYN-0000182",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 182,
+      "csv_line": 184,
+      "visit_id": "SYN-0000183",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 183,
+      "csv_line": 185,
+      "visit_id": "SYN-0000184",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 184,
+      "csv_line": 186,
+      "visit_id": "SYN-0000185",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 185,
+      "csv_line": 187,
+      "visit_id": "SYN-0000186",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 186,
+      "csv_line": 188,
+      "visit_id": "SYN-0000187",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 187,
+      "csv_line": 189,
+      "visit_id": "SYN-0000188",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 188,
+      "csv_line": 190,
+      "visit_id": "SYN-0000189",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 189,
+      "csv_line": 191,
+      "visit_id": "SYN-0000190",
+      "rule": "stay",
+      "message": "Stay is a whole number from 0 to 525600 minutes"
+    },
+    {
+      "row_index": 190,
+      "csv_line": 192,
+      "visit_id": "SYN-0000191",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 191,
+      "csv_line": 193,
+      "visit_id": "SYN-0000192",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 192,
+      "csv_line": 194,
+      "visit_id": "SYN-0000193",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 193,
+      "csv_line": 195,
+      "visit_id": "SYN-0000194",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 194,
+      "csv_line": 196,
+      "visit_id": "SYN-0000195",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 195,
+      "csv_line": 197,
+      "visit_id": "SYN-0000196",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 196,
+      "csv_line": 198,
+      "visit_id": "SYN-0000197",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 197,
+      "csv_line": 199,
+      "visit_id": "SYN-0000198",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 198,
+      "csv_line": 200,
+      "visit_id": "SYN-0000199",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    },
+    {
+      "row_index": 199,
+      "csv_line": 201,
+      "visit_id": "SYN-0000200",
+      "rule": "duration",
+      "message": "Wait and stay equal their timestamp differences"
+    }
+  ]
+}

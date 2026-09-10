@@ -1,0 +1,51 @@
+test_change_size_and_seed (test_dashboard.DashboardTests.test_change_size_and_seed) ... 2026-09-10 16:50:23.887 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_empty_department_selection (test_dashboard.DashboardTests.test_empty_department_selection) ... 2026-09-10 16:50:25.312 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_error_toggle (test_dashboard.DashboardTests.test_error_toggle) ... 2026-09-10 16:50:26.058 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_initial_load (test_dashboard.DashboardTests.test_initial_load) ... 2026-09-10 16:50:27.131 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_cli (test_pipeline.DatabaseTests.test_cli) ... ok
+test_empty_selection (test_pipeline.DatabaseTests.test_empty_selection) ... ok
+test_filter (test_pipeline.DatabaseTests.test_filter) ... ok
+test_invalid_replace_preserves_data (test_pipeline.DatabaseTests.test_invalid_replace_preserves_data) ... ok
+test_parameterized_query (test_pipeline.DatabaseTests.test_parameterized_query) ... ok
+test_persistence (test_pipeline.DatabaseTests.test_persistence) ... ok
+test_replace_does_not_append (test_pipeline.DatabaseTests.test_replace_does_not_append) ... ok
+test_round_trip (test_pipeline.DatabaseTests.test_round_trip) ... ok
+test_summary_totals (test_pipeline.DatabaseTests.test_summary_totals) ... ok
+test_all_departments (test_pipeline.GeneratorTests.test_all_departments) ... ok
+test_count_limits (test_pipeline.GeneratorTests.test_count_limits) ... ok
+test_csv_round_trip (test_pipeline.GeneratorTests.test_csv_round_trip) ... ok
+test_different_seeds (test_pipeline.GeneratorTests.test_different_seeds) ... ok
+test_generated_pass (test_pipeline.GeneratorTests.test_generated_pass) ... ok
+test_no_extra_identifiers (test_pipeline.GeneratorTests.test_no_extra_identifiers) ... ok
+test_reproducible (test_pipeline.GeneratorTests.test_reproducible) ... ok
+test_seed_type (test_pipeline.GeneratorTests.test_seed_type) ... ok
+test_unique_identifiers (test_pipeline.GeneratorTests.test_unique_identifiers) ... ok
+test_age (test_pipeline.ValidatorTests.test_age) ... ok
+test_boolean (test_pipeline.ValidatorTests.test_boolean) ... ok
+test_chronology (test_pipeline.ValidatorTests.test_chronology) ... ok
+test_controlled_defects (test_pipeline.ValidatorTests.test_controlled_defects) ... ok
+test_department (test_pipeline.ValidatorTests.test_department) ... ok
+test_duplicate (test_pipeline.ValidatorTests.test_duplicate) ... ok
+test_duration (test_pipeline.ValidatorTests.test_duration) ... ok
+test_empty (test_pipeline.ValidatorTests.test_empty) ... ok
+test_extra_column (test_pipeline.ValidatorTests.test_extra_column) ... ok
+test_float (test_pipeline.ValidatorTests.test_float) ... ok
+test_id (test_pipeline.ValidatorTests.test_id) ... ok
+test_impossible_date (test_pipeline.ValidatorTests.test_impossible_date) ... ok
+test_missing (test_pipeline.ValidatorTests.test_missing) ... ok
+test_nan (test_pipeline.ValidatorTests.test_nan) ... ok
+test_no_mutation (test_pipeline.ValidatorTests.test_no_mutation) ... ok
+test_nulls (test_pipeline.ValidatorTests.test_nulls) ... ok
+test_small_fixture_rejected (test_pipeline.ValidatorTests.test_small_fixture_rejected) ... ok
+test_stay (test_pipeline.ValidatorTests.test_stay) ... ok
+test_timezone (test_pipeline.ValidatorTests.test_timezone) ... ok
+test_wait (test_pipeline.ValidatorTests.test_wait) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 4.407s
+
+OK

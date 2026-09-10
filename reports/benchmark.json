@@ -1,0 +1,56 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "sqlite": "3.53.1",
+  "visits": 10000,
+  "departments": 5,
+  "seed": 42,
+  "repetitions": 5,
+  "median_seconds": {
+    "generation_seconds": 0.053018,
+    "validation_seconds": 0.159623,
+    "sqlite_load_and_query_seconds": 0.200899,
+    "total_seconds": 0.417789
+  },
+  "samples_seconds": [
+    {
+      "generation_seconds": 0.05331511400004274,
+      "validation_seconds": 0.16550261600002614,
+      "sqlite_load_and_query_seconds": 0.1989716649999309,
+      "total_seconds": 0.4177893949999998
+    },
+    {
+      "generation_seconds": 0.05215318099999422,
+      "validation_seconds": 0.15662138999994113,
+      "sqlite_load_and_query_seconds": 0.20027639299996736,
+      "total_seconds": 0.4090509639999027
+    },
+    {
+      "generation_seconds": 0.05301766599995972,
+      "validation_seconds": 0.1556987180000533,
+      "sqlite_load_and_query_seconds": 0.20089856200002032,
+      "total_seconds": 0.40961494600003334
+    },
+    {
+      "generation_seconds": 0.052341264999995474,
+      "validation_seconds": 0.1596233980000079,
+      "sqlite_load_and_query_seconds": 0.20780811299994184,
+      "total_seconds": 0.4197727759999452
+    },
+    {
+      "generation_seconds": 0.05443668600003093,
+      "validation_seconds": 0.16079112800002804,
+      "sqlite_load_and_query_seconds": 0.20528927499992733,
+      "total_seconds": 0.4205170889999863
+    }
+  ],
+  "controlled_defects": {
+    "injected_rows": 100,
+    "categories": 10,
+    "detected_injected_rows": 100,
+    "missed_injected_rows": 0,
+    "additional_flagged_rows": 0,
+    "accepted_rows": 9900
+  },
+  "scope": "Local timing includes a second validation during SQLite loading; excludes disk and CSV export. Defect results apply only to the deliberately corrupted fixture, not arbitrary input."
+}
